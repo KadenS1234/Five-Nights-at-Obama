@@ -1,16 +1,16 @@
 let hour = 12
-let obamaDistance = 5
+let bamaDistance = 5
 let doorClosed = false
 
 function updateStatus() {
     document.getElementById("status").innerText =
-        "Time: " + hour + " AM | Obama distance: " + obamaDistance
+        "Time: " + hour + " AM | bama distance: " + bamaDistance
 }
 
-function checkCamera() {
+function checkcamera() {
 
     if (obamaDistance > 0) {
-        obamaDistance--
+        bamaDistance--
     }
 
     if (obamaDistance == 0 && !doorClosed) {
